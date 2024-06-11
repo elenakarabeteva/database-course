@@ -42,8 +42,7 @@ WHERE inWeekday = 1;
 -- изглед, даващ информация за спирките
 CREATE VIEW STOP_INFORMATION AS
 SELECT stopName, latitude, longitude 
-FROM Stops
-WITH CHECK OPTION;
+FROM Stops;
 
 -- добавяне на нова спирка през изгледа
 INSERT INTO STOP_INFORMATION
