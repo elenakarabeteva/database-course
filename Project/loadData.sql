@@ -1,5 +1,5 @@
 -- СКГТ
--- Елена Карабетева, 6MI0700149
+-- Елена Карабетева
 
 INSERT INTO IdentifierType (type, usability, price)
 VALUES ('24-часова карта', 0, 6.00),

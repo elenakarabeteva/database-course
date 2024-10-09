@@ -1,5 +1,5 @@
 -- СКГТ
--- Елена Карабетева, 6MI0700149
+-- Елена Карабетева
 
 CREATE TABLE Stops(
 	ID INT NOT NULL GENERATED ALWAYS AS IDENTITY (START WITH 1 INCREMENT BY 1) PRIMARY KEY, 
